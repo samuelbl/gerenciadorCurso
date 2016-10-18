@@ -5,16 +5,17 @@
 <title>Empresa</title>
 </head>
 <body>
-	Bem vindo ao gerenciador!
-	<form action="novaEmpresa" method="POST">
-		Nome:<input type="text" name="nome" /> <br /> 
-		<input type="submit"	value="Enviar" />
-	</form>
-
-	<form action="novoUsuario" method="POST">
+	Login
+	
+	<form action="login" method="POST">
 		Email:<input type="text" name="email" /> <br />
 		Senha:<input type="text" name="senha" /> <br />  
 		<input type="submit"	value="Enviar" />
-	</form>	
+	</form>
+	
+	<form action="logout" method="POST">
+		<input type="submit"	value="Logout" />
+	</form>
+	
 </body>
 </html>
